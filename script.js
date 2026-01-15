@@ -5,7 +5,7 @@ const foodData = [
         name: "Margherita Pizza",
         price: 14.99,
         category: "pizza",
-        image: "img/food/p1.jpg",
+        image: "img/category/margreta.png",
         description: "Classic pizza with tomato sauce, mozzarella, and basil"
     },
     {
@@ -21,7 +21,7 @@ const foodData = [
         name: "Cheeseburger",
         price: 7.99,
         category: "burger",
-        image: "img/food/b1.jpg",
+        image: "img/category/chheseburger.jpg",
         description: "Juicy beef burger with cheese, lettuce, and tomato"
     },
     {
@@ -37,7 +37,7 @@ const foodData = [
         name: "Club Sandwich",
         price: 8.99,
         category: "sandwich",
-        image: "img/food/s1.jpg",
+        image: "img/category/club-sand.avif",
         description: "Triple-decker sandwich with turkey, bacon, and vegetables"
     },
     {
@@ -45,7 +45,7 @@ const foodData = [
         name: "Veggie Sandwich",
         price: 7.99,
         category: "sandwich",
-        image: "img/category/sandwich.jpg",
+        image: "img/category/veggie.avif",
         description: "Fresh vegetables with hummus and sprouts"
     }
 ];
@@ -277,7 +277,7 @@ function generateBillPreview(order) {
     // Create bill content
     let billContent = `
 =====================================
-          FOODIE DELIGHT
+          FOODIE WOODIE
       ORDER RECEIPT & BILL
 =====================================
 
@@ -300,7 +300,7 @@ Total Amount: $${order.total.toFixed(2)}
 
 =====================================
     Thank you for your order!
-  Visit us again at Foodie Delight
+  Visit us again at Foodie Woodie
 =====================================
 `;
     
@@ -374,7 +374,7 @@ function downloadBillAsTxt(billContent, order) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `foodie-delight-bill-${new Date(order.timestamp).getTime()}.txt`;
+    a.download = `foodie-woodie-bill-${new Date(order.timestamp).getTime()}.txt`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -390,7 +390,7 @@ function downloadBillAsPdf(billContent, order) {
     printWindow.document.write(`
         <html>
         <head>
-            <title>Foodie Delight Bill</title>
+            <title>Foodie Woodie Bill</title>
             <style>
                 body { font-family: monospace; margin: 20px; }
                 pre { white-space: pre-wrap; }

@@ -21,7 +21,7 @@ body {
 
 .btn-primary {
     display: inline-block;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, rgb(255, 85, 0), red);
     color: white;
     padding: 12px 25px;
     border: none;
@@ -35,7 +35,7 @@ body {
 }
 
 .btn-primary:hover {
-    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    background: linear-gradient(135deg, orange, rgb(255, 13, 0));
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(30, 60, 114, 0.3);
 }
@@ -64,10 +64,11 @@ header .container {
 .logo img {
     height: 50px;
     margin-right: 10px;
+    box-shadow: inset;
 }
 
 .logo h1 {
-    color: #1e3c72;
+    color: red;
     font-size: 24px;
 }
 
@@ -93,7 +94,7 @@ header .container {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #1e3c72;
+    color: rgb(255, 119, 0);
     background-color: rgba(30, 60, 114, 0.1);
 }
 
@@ -138,7 +139,7 @@ header .container {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(30, 60, 114, 0.7), rgba(30, 60, 114, 0.7)), url('img/food-bg.jpg');
+    background: linear-gradient(rgba(30, 60, 114, 0.2), rgba(30, 60, 114, 0.2)), url("img/Food/foof bg 1.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -168,7 +169,7 @@ header .container {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: #1e3c72;
+    color:  rgb(255, 81, 0);
 }
 
 .category-grid {
@@ -199,7 +200,7 @@ header .container {
 .category-card h3 {
     padding: 20px;
     font-size: 1.5rem;
-    color: #1e3c72;
+    color:  rgb(255, 81, 0);
 }
 
 /* Featured Items Section */
@@ -212,7 +213,7 @@ header .container {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
-    color: #1e3c72;
+    color:  rgb(255, 81, 0);
 }
 
 .food-grid {
@@ -246,7 +247,7 @@ header .container {
 .food-info h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #1e3c72;
+    color: rgb(255, 81, 0);
 }
 
 .food-info p {
@@ -257,7 +258,7 @@ header .container {
 .price {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #1e3c72;
+    color: rgb(255, 68, 0);
     margin-bottom: 15px;
     display: block;
 }
@@ -265,7 +266,7 @@ header .container {
 .add-to-cart {
     width: 100%;
     padding: 10px;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, rgb(255, 34, 0), red);
     color: white;
     border: none;
     border-radius: 5px;
@@ -275,7 +276,7 @@ header .container {
 }
 
 .add-to-cart:hover {
-    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    background: linear-gradient(135deg, red, rgb(255, 47, 0));
 }
 
 /* Cart Modal */
@@ -304,7 +305,7 @@ header .container {
 }
 
 .cart-header {
-    background: #1e3c72;
+    background: rgb(255, 77, 0);
     color: white;
     padding: 20px;
     display: flex;
@@ -340,7 +341,7 @@ header .container {
 }
 
 .item-price {
-    color: #1e3c72;
+    color: red;
     font-weight: bold;
 }
 
@@ -353,7 +354,7 @@ header .container {
 .quantity-btn {
     width: 30px;
     height: 30px;
-    background: #1e3c72;
+    background: red;
     color: white;
     border: none;
     border-radius: 50%;
@@ -414,7 +415,7 @@ header .container {
 
 /* Footer */
 footer {
-    background: #1e3c72;
+    background: rgb(195, 53, 34);
     color: white;
     padding: 50px 0 20px;
 }
@@ -491,7 +492,7 @@ footer {
 
 .menu-header h1 {
     font-size: 2.5rem;
-    color: #1e3c72;
+    color: red;
     margin-bottom: 20px;
 }
 
@@ -506,8 +507,8 @@ footer {
 .filter-btn {
     padding: 10px 20px;
     background: white;
-    border: 1px solid #1e3c72;
-    color: #1e3c72;
+    border: 1px solid rgb(255, 81, 0);
+    color: red;
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s;
@@ -515,7 +516,7 @@ footer {
 
 .filter-btn.active,
 .filter-btn:hover {
-    background: #1e3c72;
+    background: rgb(255, 85, 0);
     color: white;
 }
 
@@ -531,7 +532,7 @@ footer {
 
 .about-header h1 {
     font-size: 2.5rem;
-    color: #1e3c72;
+    color: rgb(255, 34, 0);
     margin-bottom: 20px;
 }
 
@@ -554,7 +555,7 @@ footer {
 
 .contact-header h1 {
     font-size: 2.5rem;
-    color: #1e3c72;
+    color: rgb(255, 68, 0);
     margin-bottom: 20px;
 }
 
