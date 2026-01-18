@@ -277,7 +277,7 @@ function generateBillPreview(order) {
     // Create bill content
     let billContent = `
 =====================================
-          FOODIE WOODIE
+          URBANEATS
       ORDER RECEIPT & BILL
 =====================================
 
@@ -300,7 +300,7 @@ Total Amount: $${order.total.toFixed(2)}
 
 =====================================
     Thank you for your order!
-  Visit us again at Foodie Woodie
+  Visit us again at UrbanEats
 =====================================
 `;
     
@@ -374,7 +374,7 @@ function downloadBillAsTxt(billContent, order) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `foodie-woodie-bill-${new Date(order.timestamp).getTime()}.txt`;
+    a.download = `UrbanEats-bill-${new Date(order.timestamp).getTime()}.txt`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -390,7 +390,7 @@ function downloadBillAsPdf(billContent, order) {
     printWindow.document.write(`
         <html>
         <head>
-            <title>Foodie Woodie Bill</title>
+            <title>UrbanEats Bill</title>
             <style>
                 body { font-family: monospace; margin: 20px; }
                 pre { white-space: pre-wrap; }

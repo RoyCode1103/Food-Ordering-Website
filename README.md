@@ -1,4 +1,4 @@
-# Food Ordering Website
+# UrbanEats
 
 A responsive food ordering website built using HTML, CSS, and JavaScript.  
 This project focuses on clean UI design, structured frontend development, and smooth navigation.
